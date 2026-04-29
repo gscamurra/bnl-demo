@@ -253,7 +253,8 @@ li:has(> a[title="accedi"]) {
 
 li > a[title="apri"] {
   text-transform: uppercase;
-  border: 2px solid #c7c7c7;
+  border: 2px solid #aff452 !important;
+  background-color: #aff452;
   padding: 10px 17px !important;
   border-radius: 7px;
   border-bottom: 2px solid #aff452 !important;
@@ -261,7 +262,7 @@ li > a[title="apri"] {
 
 li > a[title="apri"]:hover {
   text-decoration: underline;
-  border: 2px solid #aff452;
+  border: 2px solid #aff452 !important;
   border-bottom: 2px solid #aff452 !important;
 }
 
