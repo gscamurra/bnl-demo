@@ -248,7 +248,7 @@ li > a[title="accedi"]:hover {
 
 
 li:has(> a[title="accedi"]) {
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 li > a[title="apri"] {
@@ -268,7 +268,7 @@ li > a[title="apri"]:hover {
 
 
 li:has(> a[title="apri"]) {
-  margin-left: 10px;
+  margin-left: -16px;
 }
 
 
