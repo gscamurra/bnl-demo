@@ -219,10 +219,14 @@ header nav .nav-sections ul > li > a {
   font-weight: bold
 }
 header nav .nav-sections ul > li > a:hover {
-    background: #f8f9f9;
-    display: inline-block;
-    padding: 25px 12px 21px 12px;
-    border-bottom: 4px solid #082d23;
+  padding: 25px 12px 21px 12px; 
+  font-size: 15px;
+  color: #171c1c;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.3125rem;
+  letter-spacing: .025rem;
+  font-weight: bold
 }
 
 header nav .nav-sections ul > li > a::before {
