@@ -218,6 +218,19 @@ header nav .nav-sections ul > li > a {
   letter-spacing: .025rem;
   font-weight: bold
 }
+
+
+header nav .nav-sections ul > li > a::after  
+{
+  content: " \25BE"; /* ▾ */
+  display: inline-block;
+  margin-left: .4em;
+  font-size: .85em;
+  line-height: 1;
+  transform: translateY(-1px); /* micro allineamento */
+  opacity: .9;
+}
+
 header nav .nav-sections ul > li > a:hover {
   padding: 30px 12px 27px 12px;
   font-size: 15px;
