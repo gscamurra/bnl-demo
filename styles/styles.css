@@ -303,6 +303,10 @@
   } */
 }
 
+main {
+  background-color: #f8f9f9;
+}
+
 body {
   display: none;
   margin: 0;
