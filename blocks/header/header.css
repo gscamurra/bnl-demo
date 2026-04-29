@@ -223,14 +223,14 @@ header nav .nav-sections ul > li > a {
 header nav .nav-sections ul > li > a::after  
 {
   
-content: "";
-display: inline-block;
-width: .45em;
-height: .45em;
-margin-left: .45em;
-border-right: 2px solid currentColor;
-border-bottom: 2px solid currentColor;
-transform: translateY(-1px) rotate(45deg); /* fa la V verso il basso */
+  content: "" !important;
+  display: inline-block;
+  width: .45em !important;
+  height: .45em;
+  margin-left: .45em;
+  border-right: 1px solid #2b333f;
+  border-bottom: 1px solid #2b333f;
+  transform: translateY(-17px) translateX(12px) rotate(45deg);
 
 }
 
