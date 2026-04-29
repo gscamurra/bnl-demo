@@ -226,7 +226,8 @@ header nav .nav-sections ul > li > a:hover {
   font-family: Open Sans, sans-serif;
   line-height: 1.3125rem;
   letter-spacing: .025rem;
-  font-weight: bold
+  font-weight: bold;
+  background-color: #f8f9f9;
 }
 
 header nav .nav-sections ul > li > a::before {
