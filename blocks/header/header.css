@@ -222,13 +222,16 @@ header nav .nav-sections ul > li > a {
 
 header nav .nav-sections ul > li > a::after  
 {
-  content: " \25BE"; /* ▾ */
-  display: inline-block;
-  margin-left: .4em;
-  font-size: .85em;
-  line-height: 1;
-  transform: translateY(-1px); /* micro allineamento */
-  opacity: .9;
+  
+content: "";
+display: inline-block;
+width: .45em;
+height: .45em;
+margin-left: .45em;
+border-right: 2px solid currentColor;
+border-bottom: 2px solid currentColor;
+transform: translateY(-1px) rotate(45deg); /* fa la V verso il basso */
+
 }
 
 header nav .nav-sections ul > li > a:hover {
