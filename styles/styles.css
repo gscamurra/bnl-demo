@@ -348,6 +348,7 @@ body.green-theme {
 body header .nav-wrapper{
   background-color: #FFF;
   color: #171c1c;
+  border-bottom: 1px solid #f1f3f3;
 }
 body footer {
   background-color: var(--footer-background-color);
