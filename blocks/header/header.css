@@ -174,12 +174,12 @@ header nav .nav-brand img {
   width: 143px;
   height: auto;
   padding-top: 20px;
+  max-width: auto;
 }
 
 .wehealthcare-theme header nav .nav-brand img {
   width: auto;
-  height: 36.5px;
-  max-width: auto;
+  height: 36.5px;  
 }
 
 /* sections */
