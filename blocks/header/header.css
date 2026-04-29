@@ -209,12 +209,13 @@ header nav .nav-sections ul > li {
 }
 
 header nav .nav-sections ul > li > a {  
-  font-size: 14px;
+  font-size: 15px;
   color: #171c1c;
   text-decoration: none;
   font-family: Open Sans, sans-serif;
   line-height: 1.3125rem;
   letter-spacing: .025rem;
+  font-weight: bold
 }
 header nav .nav-sections ul > li > a:hover {
   color: #171c1c;
