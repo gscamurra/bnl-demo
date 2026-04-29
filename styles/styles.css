@@ -393,7 +393,6 @@ body.blue-theme header .nav-wrapper nav .nav-sections ul > li > a:hover{
 header {
   height: var(--nav-height);
   min-height: 90px;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
