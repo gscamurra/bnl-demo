@@ -209,7 +209,7 @@ header nav .nav-sections ul > li {
 }
 
 header nav .nav-sections ul > li > a { 
-  padding: 30px 12px 30px 12px;
+  padding: 30px 20px 30px 12px;
   font-size: 15px;
   color: #171c1c;
   text-decoration: none;
@@ -222,7 +222,6 @@ header nav .nav-sections ul > li > a {
 
 header nav .nav-sections ul > li > a::after  
 {
-  
   content: "" !important;
   display: inline-block;
   width: .45em !important;
@@ -231,11 +230,10 @@ header nav .nav-sections ul > li > a::after
   border-right: 1px solid #2b333f;
   border-bottom: 1px solid #2b333f;
   transform: translateY(-17px) translateX(12px) rotate(45deg);
-
 }
 
 header nav .nav-sections ul > li > a:hover {
-  padding: 30px 12px 27px 12px;
+  padding: 30px 20px 27px 12px;
   font-size: 15px;
   color: #171c1c;
   text-decoration: none;
@@ -260,6 +258,11 @@ li > a[title="accedi"]:hover {
   text-decoration: underline;
   border: 2px solid #c7c7c7;
   border-bottom: 2px solid #c7c7c7 !important;
+}
+
+li > a[title="accedi"]::after, li > a[title="apri"]::after
+{
+  display: none !important; 
 }
 
 
