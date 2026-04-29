@@ -219,7 +219,7 @@ header nav .nav-sections ul > li > a {
   font-weight: bold
 }
 header nav .nav-sections ul > li > a:hover {
-  padding: 30px 12px 30px 12px;
+  padding: 30px 12px 27px 12px;
   font-size: 15px;
   color: #171c1c;
   text-decoration: none;
@@ -228,7 +228,7 @@ header nav .nav-sections ul > li > a:hover {
   letter-spacing: .025rem;
   font-weight: bold;
   background-color: #f8f9f9;
-  border-bottom: 2px solid darkgreen;
+  border-bottom: 3px solid darkgreen;
 }
 
 header nav .nav-sections ul > li > a::before {
