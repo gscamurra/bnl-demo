@@ -233,7 +233,10 @@ header nav .nav-sections ul > li > a:hover {
 
 
 li > a[title="accedi"] {
- color: red
+  text-transform: uppercase;
+  border: 2px solid #c7c7c7;
+  padding: 10px 17px !important;
+  border-radius: 7px;
 }
 
 li > a[title="accedi"]:hover {
