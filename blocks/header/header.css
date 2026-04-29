@@ -237,11 +237,13 @@ li > a[title="accedi"] {
   border: 2px solid #c7c7c7;
   padding: 10px 17px !important;
   border-radius: 7px;
-  border-bottom: none !important;
+  border-bottom: 2px solid #c7c7c7;
 }
 
 li > a[title="accedi"]:hover {
   text-decoration: underline;
+  border: 2px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
 }
 
 
