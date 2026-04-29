@@ -261,9 +261,9 @@ li > a[title="apri"] {
 }
 
 li > a[title="apri"]:hover {
-  background-color: #9be43c !important;
-  border: 2px solid #aff452 !important;
-  border-bottom: 2px solid #aff452 !important;
+  background-color: #a2e44c !important;
+  border: 2px solid #a2e44c !important;
+  border-bottom: 2px solid #a2e44c !important;
 }
 
 
