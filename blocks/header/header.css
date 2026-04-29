@@ -218,34 +218,11 @@ header nav .nav-sections ul > li > a {
   font-weight: bold
 }
 header nav .nav-sections ul > li > a:hover {
-  color: #171c1c;
+  background: #f8f9f9;
+    display: inline-block;
+    padding: 25px 12px 21px 12px;
+    border-bottom: 4px solid #082d23;
 }
-
-header nav .nav-sections ul > li > a::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background: var(--main-accent-color);
-  top: 100%;
-  left: 0;
-  pointer-events: none;
-  transform-origin: 50% 100%;
-  transition: clip-path 0.3s, transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
-  clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0%);
-}
-
-header nav .nav-sections ul > li > a:hover::before {
-  transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
-  clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 0 100%, 100% 100%, 100% 0%);
-}
-
-header nav .nav-sections ul > li > a::after {
-  content: '';
-  width: 0;
-  padding: 0;
-}
-
 
 header nav .nav-sections ul > li > ul {
   margin-top: 0;
