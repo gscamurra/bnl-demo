@@ -154,6 +154,11 @@
   margin-left: 50%;
 }
 
+.content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail h2 {
+  color: #aff452 !important
+  
+}
+
 /* Image Right Layout - Image on right, text on left */
 .content-fragment-wrapper .content-fragment .banner-content.image-right {
   display: flex;
