@@ -818,8 +818,9 @@ main .section.bg-light {
 }
 
 .intro-section h3 {
+  margin-top: 0px;
   color: #082d23;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 /* Section background image */
