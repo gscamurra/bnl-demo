@@ -265,12 +265,11 @@ li > a[title="accedi"]::after, li > a[title="apri"]::after
   display: none !important; 
 }
 
-
 li:has(> a[title="accedi"]) {
   margin-left: 70px;
 }
 
-li > a[title="apri"] {
+li > a[title="apri"], a[title="apri"] {
   text-transform: uppercase;
   border: 2px solid #aff452 !important;
   background-color: #aff452;
@@ -279,7 +278,7 @@ li > a[title="apri"] {
   border-bottom: 2px solid #aff452 !important;
 }
 
-li > a[title="apri"]:hover {
+li > a[title="apri"]:hover, a[title="apri"] {
   background-color: #a2e44c !important;
   border: 2px solid #a2e44c !important;
   border-bottom: 2px solid #a2e44c !important;
@@ -289,8 +288,6 @@ li > a[title="apri"]:hover {
 li:has(> a[title="apri"]) {
   margin-left: -16px;
 }
-
-
 
 header nav .nav-sections ul > li > a::before {
   content: '';
