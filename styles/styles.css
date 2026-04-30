@@ -807,6 +807,14 @@ main .section.bg-light {
   color: var(--text-color);
 }
 
+.intro-section {
+  text-align: center;
+}
+
+.intro-section p {
+  color: darkgrey;
+}
+
 /* Section background image */
 /* main .section.bg-image {
   overflow: hidden;
