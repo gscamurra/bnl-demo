@@ -1,5 +1,5 @@
 .accordion details {
-  border: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
@@ -9,6 +9,12 @@
 
 .accordion details p {
   margin-bottom: 0.8em;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.accordion-item-body {
+  font-weight: normal !important;
 }
 
 .accordion details summary {
