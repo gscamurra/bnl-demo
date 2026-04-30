@@ -812,7 +812,14 @@ main .section.bg-light {
 }
 
 .intro-section p {
-  color: darkgrey;
+  color: #586868;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.intro-section h3 {
+  color: #082d23;
+  font-size: 20px;
 }
 
 /* Section background image */
