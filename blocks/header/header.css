@@ -274,14 +274,18 @@ li > a[title="apri"], a[title="apri"] {
   border: 2px solid #aff452 !important;
   background-color: #aff452;
   padding: 10px 17px !important;
-  border-radius: 7px;
+  border-radius: 7px !important;
   border-bottom: 2px solid #aff452 !important;
+  color: #171c1c !important;
+  border-radius: 7px !important;
 }
 
 li > a[title="apri"]:hover, a[title="apri"] {
   background-color: #a2e44c !important;
   border: 2px solid #a2e44c !important;
   border-bottom: 2px solid #a2e44c !important;
+  color: #171c1c !important;
+  text-decoration: none !important;
 }
 
 
