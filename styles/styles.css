@@ -310,7 +310,7 @@ main {
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
+  background-color: #f8f9f9;
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
@@ -355,7 +355,7 @@ body header .nav-wrapper{
   border-bottom: 1px solid #f1f3f3;
 }
 body footer {
-  background-color: var(--footer-background-color);
+  background-color: #082d23;
   color: var(--footer-text-color);
 }
 /*theme header-footer*/
