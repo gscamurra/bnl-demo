@@ -44,6 +44,7 @@
   margin: 10px 0;
   font-size: 30px;
   color: #FFF;
+  line-height: 33px;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content .banner-detail .cfsubtitle {
@@ -149,6 +150,7 @@
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail h2 {
   color: #aff452 !important;
   font-size: 50px;
+  margin-bottom: 10px;
 
 }
 
@@ -273,7 +275,7 @@
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail a {
   /* text-align: left; */ 
   /* align-self: flex-start; */
-  color: var(--text-color);
+  color: #FFF;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail a::after,
