@@ -42,10 +42,12 @@
 
 .content-fragment-wrapper .content-fragment .banner-content .banner-detail p {
   margin: 10px 0;
+  font-size: 30px;
+  color: #FFF;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content .banner-detail .cfsubtitle {
-  font-size: 20px;
+  font-size: 35px;
   line-height: 30px;
   padding: 0;
   margin: 0;
@@ -57,16 +59,6 @@
   font-size: 30px;
   line-height: 50px;
   font-family: var(--black-font-family);
-}
-.content-fragment-wrapper .content-fragment .banner-content .banner-detail .cftitle::after {
-  background-color: var(--main-accent-color);
-  content: "";
-  display: block;
-  height: 5px;
-  margin: auto;
-  transition: width .4s ease-in-out;
-  width: 128px;
-  margin: 10px auto;
 }
 
 
@@ -155,8 +147,9 @@
 }
 
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail h2 {
-  color: #aff452 !important
-  
+  color: #aff452 !important;
+  font-size: 50px;
+
 }
 
 /* Image Right Layout - Image on right, text on left */
@@ -262,7 +255,7 @@
 .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail .cfsubtitle,
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail .cfsubtitle,
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail .cfsubtitle {
-  color: #666;
+  color: #FFF;
 }
 
 .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail .cfdescription,
